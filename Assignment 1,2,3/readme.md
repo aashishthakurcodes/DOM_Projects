@@ -175,3 +175,44 @@ accordian.forEach((element) => {
 ![Output image](./Output%20image/A-2%20Output/Screenshot%202023-02-05%20080402.png)
 
 ## ** Assignment 2 completed **
+
+## ** Assignment 3 **
+
+## Task 1
+## <u>Change the Input of User Input board and User Output board</u>
+
+## Task 1 code
+
+```
+// Selecting the left div
+let mainright= document.querySelector(".mainLeft");
+// Selecting all it's input
+let leftInput=mainright.querySelectorAll("input");
+//Targetting 1st node
+leftInput[0].placeholder="FSJS 2.0"
+//Targetting 2nd node
+leftInput[1].placeholder="fsjs@ineuron.ai"
+
+// Targeting the lefttext area.
+let lefttext=mainright.querySelector("textarea");
+lefttext.placeholder="Hello World"
+
+// Selecting the Right div.
+let rightdiv=document.querySelector(".mainRight");
+// Selecting all it's input
+let rightInput=rightdiv.querySelectorAll("input");
+//Targetting 1st node
+rightInput[0].placeholder="FSJS 2.0";
+//Targetting 2nd node
+rightInput[1].placeholder="fsjs@ineuron.ai";
+
+// Targeting the righttext area.
+let rightText=rightdiv.querySelector("textarea");
+rightText.placeholder="Hello World"
+
+```
+## Output
+
+![Output](./Output%20image/A-3%20Output/Screenshot%202023-02-04%20121759.png)
+
+## _*Assignment 3 completed*_
